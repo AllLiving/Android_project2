@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cherryPink</item>
+        <item name="colorPrimaryDark">@color/cherryPink</item>
+        <item name="colorAccent">@color/cherryPink</item>
+        <item name="playBarBackground">@drawable/play_bar_bg_selector</item>
+    </style>
+
+    <attr name="playBarBackground" format="reference" />
+
+    <style name="AppTheme.Search" parent="AppTheme">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Text" parent="TextAppearance.AppCompat" />
+
+</resources>
